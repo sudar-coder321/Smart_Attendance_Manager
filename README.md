@@ -15,3 +15,14 @@ In voice training mode the user will be enrolled in the system. Here the input s
 #### Authentication
 
 In Voice recognition mode verification of user takes place. Here too the input signals are preprocessed to improve the signal quality. Then the features such as speech pause, pitch, rate, frequency are extracted and score will be computed based on the extracted features and with the help of pattern matching module we will match the score with template stored in database and a decision is made whether the user is a valid user or not.
+
+### Fingerprint Recognition System 
+
+#### Registration
+
+Image acquisition is done for both enrollment and verification processes. The fingerprint is captured as an input by the device by placing the finger at various angles to capture all the features.Next step is preprocessing using Binarization to make ridges and fudges in black and white respectively which makes it easier for the computer to recognize. Then these images will be thinned using thinning process to make the features clear (to improve the accuracy). Next the features such as total number of ridges end points and Bifurcation points are extracted using Minutiae Feature extraction algorithm and template will be generated based on the collection of scores obtained from feature vectors and it will be stored in the database. 
+
+#### Authentication
+
+For verification of the user, after preprocessing, the features will be extracted and a score computed. With the help of pattern matching module, we will match the score with the template stored in the database and it will take a decision based on that.
+
