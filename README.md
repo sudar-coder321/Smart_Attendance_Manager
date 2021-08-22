@@ -94,3 +94,49 @@ Google Speech-to-Text Recognition module is a service that enables developers to
 
  - Keypoint Matching: Image result for keypoint matching. Keypoints are the same thing as interest points. They are spatial locations, or points in the image that define what is interesting or what stand out in the image.
 
+##  Proposed Block Diagram
+
+### For Fingerprint Recognition System
+
+![image](https://user-images.githubusercontent.com/60535124/130363340-f4727348-322e-4426-8aab-a90e7f94773e.png)
+
+### For Voice Recognition System
+
+![image](https://user-images.githubusercontent.com/60535124/130363358-36e8b2e5-ff42-4958-bf9a-e6b98fc38275.png)
+
+### Proposed diagram for fusion system
+
+![image](https://user-images.githubusercontent.com/60535124/130363374-b65cbde4-1dc1-48c5-b784-fe0122d4def1.png)
+
+## Results for Fingerprint matching
+
+### Finding Minutae Points
+
+![image](https://user-images.githubusercontent.com/60535124/130363413-6f410a4b-44cc-46d0-9a80-e9b6dbd71ed3.png)
+
+### Matching the Points
+
+![image](https://user-images.githubusercontent.com/60535124/130363424-432111ae-f48e-42ec-bcb0-0e3a73701b1a.png)
+
+### Calculating Score
+
+![image](https://user-images.githubusercontent.com/60535124/130363431-c46c789e-5608-43eb-9148-4aa438d98f19.png)
+
+## Results for Voice Recognition
+
+### Voice Files 
+
+![image](https://user-images.githubusercontent.com/60535124/130363555-0d023964-c245-4510-9c4b-64fe8a82c7e6.png)
+
+### Generated Individual Models for each User (sudarshan Being a new user added after 1st execution)
+
+![image](https://user-images.githubusercontent.com/60535124/130363576-72cc0b56-dc98-4619-9ad2-386552b0acbb.png)
+
+### Generating Model and pkl file for a sample user(shruti)
+
+![image](https://user-images.githubusercontent.com/60535124/130363627-1579a8ef-2da8-4890-872c-015bf5667ac4.png)
+
+### Giving Attendance
+![image](https://user-images.githubusercontent.com/60535124/130363500-845cf789-f353-4ae7-b02b-d6f5a9228740.png)
+
+
