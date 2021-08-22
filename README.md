@@ -26,3 +26,34 @@ Image acquisition is done for both enrollment and verification processes. The fi
 
 For verification of the user, after preprocessing, the features will be extracted and a score computed. With the help of pattern matching module, we will match the score with the template stored in the database and it will take a decision based on that.
 
+### Combined System 
+
+#### Enrollment Phase
+
+In first stage the Voice signal will be captured by the sensor. Signal degradation is done and multiple features (pitch, rate, frequency) will be extracted and it will be fused together to get feature fusion. After that template is generated based on the scores obtained from the features and it will be stored in the database.In second stage Fingerprint images are extracted as a dataset and fed into the system. Preprocessing is done, multiple features (total number of ridges end point and bifurcation points) will be extracted, and it will be used to generate a set of values known as scores. After that, a template is generated based on the scores obtained from the features and it will be stored in the database.
+
+#### Verification Phase
+
+In first stage the Voice signal will be captured by the sensor. Signal degradation is done and multiple features (pitch, rate, frequency) will be extracted and it will be fused together to get feature fusion. After that scores will be generated based on the fusion vectors.Preprocessing is done and multiple features (total number of ridges end point and bifurcation points) will be extracted as feature vectors and these vectors would be fused together using a mathematical function to generate a score.These generated scores are sent to the pattern matching module which matches these scores with the template stored in the database and it will take a decision based on that.
+
+## Algorithms used
+
+### For Voice Recognition 
+
+#### i) Feature Extraction from speech:-
+
+##### Mel Frequency Cepstral Coefficient (MFCC):-  
+
+##### Steps involved in MFCC 
+
+ - Frame the signal into short frames. 
+
+ - For each frame calculate the periodogram estimate of the power spectrum. 
+
+ - Apply the mel filterbank to the power spectra, sum the energy in each filter. 
+
+ - Take the logarithm of all filterbank energies. 
+
+ - Take the DCT of the log filterbank energies. 
+
+ - Keep DCT coefficients 2-13, discard the rest. 
