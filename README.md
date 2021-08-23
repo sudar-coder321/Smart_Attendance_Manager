@@ -1,5 +1,5 @@
 # Smart_Attendance_Manager
-A python interactive and video generator and Excel Based attendance manager which authenticates/verifies user based on 1st his fingerprint and 2nd his voice
+A python interactive video(.wav) generator and Excel Based attendance manager which authenticates/verifies user based on 1st his fingerprint and 2nd his voice
 
 ## Abstract
 The System is based on two-stage authentication where voice is the first stage, and fingerprint the second stage. First the users speak in front of the audio input device and authenticate their voice after which they enter the classroom. A fingerprint sensor module would then be used to authenticate their fingerprint after which respective student’s attendance would be recorded. 
